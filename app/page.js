@@ -1,17 +1,13 @@
-// /app/page.js
-import Link from 'next/link';
-import StudentInfo from './StudentInfo';
+import Link from "next/link";
+import StudentInfo from "./StudentInfo"; 
 
-const HomePage = () => {
+export default function cprg306() {
   return (
-    <div>
-      <h1>CPRG 306: Web Development 2 - Assignments</h1>
+    <div className="px-10 mx-10 my-20 text-xl">
+      <h1 className="text-4xl">CPRG 306: Web Development 2 - Assignments</h1>
       <StudentInfo />
-      <Link href="/week2">
-        Go to Week 2
-      </Link>
+      <Link href="/week2">week 2</Link><br /> 
+      <Link href="/week3">week 3</Link><br /> 
     </div>
   );
-};
-
-export default HomePage;
+}
