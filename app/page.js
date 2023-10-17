@@ -1,5 +1,5 @@
 import Link from "next/link";
-import StudentInfo from '../app/StudentInfo'; // Use the correct relative path
+import StudentInfo from '../app/StudentInfo'; // 
 
 export default function cprg306() {
   return (
